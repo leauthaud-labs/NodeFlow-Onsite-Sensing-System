@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en" data-title-key="next.pageTitle">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>After You Download | NodeFlow On-site Sensing System</title>
+    <meta name="description" content="Your Arduino code file is downloaded. How to open it, pick the board and port, upload it, read the LCD, and fix the things that usually go wrong." />
+    <link rel="canonical" href="https://fernlag.github.io/NodeFlow-Onsite-Sensing-System/thank-you.html" />
+    <meta name="theme-color" content="#7c9532" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://script.google.com; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="After you download | NodeFlow On-site" />
+    <meta property="og:description" content="Your Arduino code file is downloaded. How to open it, pick the board and port, upload it, read the LCD, and fix the things that usually go wrong." />
+    <meta property="og:image" content="https://fernlag.github.io/NodeFlow-Onsite-Sensing-System/assets/img/og-card.png" />
+    <meta property="og:image:alt" content="The NodeFlow On-site Sensing System logo and name" />
+    <meta property="og:site_name" content="NodeFlow On-site Sensing System" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png" />
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="page.skipMain">Skip to the main content</a>
+
+
+    <div class="container">
+      <div class="header">
+        <a href="index.html">
+          <img
+            src="assets/img/nodeflow-logo.png"
+            alt="NodeFlow On-site code generator, home"
+            data-i18n-attr="alt:page.logoHome"
+            class="header-logo"
+            width="62"
+            height="62"
+          />
+        </a>
+        <h1 data-i18n="next.h1">Your file is downloaded</h1>
+        <p class="page-subtitle" data-i18n="page.subtitle">
+          NodeFlow On-site Sensing System Code Generator
+        </p>
+      </div>
+
+      <main id="main" class="prose">
+        <p class="page-lede" data-i18n="next.lede">
+          Thank you. Your configuration choice helps us understand how the
+          system is being used.
+        </p>
+        <p data-i18n-html="next.lede2">
+          This page will walk you through the process of uploading this code
+          onto your Arduino board. If you have not done so already, please
+          <a href="https://www.arduino.cc/en/software" target="_blank" rel="noopener">download
+          the Arduino IDE application here</a>. Note that no additional
+          software, packages or configuration are needed. You will also need a
+          USB B to USB A cable, the square-ended kind that comes with most
+          printers, to connect the board to your computer.
+        </p>
+          <ol class="steps">
+            <li>
+              <span class="step-num">1</span>
+              <h2 data-i18n="next.s1h">Open the file</h2>
+              <p data-i18n-html="next.s1p">
+                Find the <code>.ino</code> file in your downloads folder and
+                open it with the Arduino IDE. The Arduino IDE will ask to move
+                this file into a new folder. Select yes or OK.
+              </p>
+            </li>
+            <li>
+              <span class="step-num">2</span>
+              <h2 data-i18n="next.s2h">Choose the board and the port</h2>
+              <p data-i18n-html="next.s2p">
+                Plug the Arduino into your computer with the USB cable. In the
+                Arduino IDE, set <strong>Tools &rsaquo; Board</strong> to
+                <em>Arduino Uno</em>. On some versions of the Arduino IDE it
+                sits one level deeper, under
+                <strong>Tools &rsaquo; Board &rsaquo; Arduino AVR Boards
+                &rsaquo; Arduino Uno</strong>. Then set
+                <strong>Tools &rsaquo; Port</strong> to the port that appeared
+                when you plugged the board in. If no port appeared, try a
+                different USB cable: many cables carry power but no data.
+              </p>
+            </li>
+            <li>
+              <span class="step-num">3</span>
+              <h2 data-i18n="next.s3h">Upload</h2>
+              <p data-i18n-html="next.s3p">
+                Press the upload arrow. When the Arduino IDE says
+                <em>Done uploading</em>, the display starts showing readings.
+              </p>
+            </li>
+            <li>
+              <span class="step-num">4</span>
+              <h2 data-i18n="next.s4h">Read the screen</h2>
+              <p data-i18n-html="next.s4p">
+                The top line of the Arduino screen shows the port number, the
+                abbreviated sensor name and the value, like
+                <code>A2 WM200SS 34 kPa</code>. The bottom line shows the bar,
+                state or warning you chose. Press the board's left and right
+                buttons to step through your sensors. The backlight goes out
+                after five minutes without a button press; any button wakes it.
+              </p>
+              <p data-i18n-html="next.s4p2">
+                Some choices leave the bottom line blank, and that is normal.
+                <em>Raw value</em>, <em>Transformed Raw Value 0-100</em> and
+                <em>Temperature</em> put everything on the top line.
+                <em>No visualization</em> goes further: the sensor is still
+                read, but nothing about it appears on the screen at all. If you
+                want the bottom line used, choose a visualization that draws
+                there, such as <em>Percentage bar</em> or one of the
+                <em>State</em> options.
+              </p>
+            </li>
+          </ol>
+
+          <h2 data-i18n="next.faqH">If something looks wrong</h2>
+          <dl class="faq">
+            <dt data-i18n="next.q1">The screen is blank or shows blocks</dt>
+            <dd data-i18n="next.a1">
+              Near one corner of the LCD board there is a small blue box with a
+              screw slot in the middle. That is the contrast dial. Turn it
+              slowly with a small screwdriver until the text appears. A new
+              board is often set to full contrast, which shows a row of solid
+              blocks, or to none, which shows nothing at all.
+            </dd>
+
+            <dt data-i18n-html="next.q2">A port reads <code>No Sensor</code></dt>
+            <dd data-i18n="next.a2">
+              Nothing is detected on that pin. Check the wiring at both ends. On
+              a Watermark going through the 200SS-VA3 adapter, remember the
+              adapter refreshes each channel every five minutes and holds the
+              previous value in between, so give it time after powering up.
+            </dd>
+
+            <dt data-i18n="next.q3">The percentage looks backwards</dt>
+            <dd data-i18n="next.a3">
+              Higher percentages always mean wetter soil, in every measurement
+              except the raw reading, which reports the sensor faithfully. If a
+              capacitive probe reads backwards, your air and water calibration
+              values are probably swapped. Generate a file with the raw value as the measurement, note the
+              reading in open air and in water, then put those two numbers back
+              into the form.
+            </dd>
+
+            <dt data-i18n="next.q4">A battery warning appears</dt>
+            <dd data-i18n-html="next.a4">
+              The code measures the supply voltage against the chip's internal 1.1&nbsp;V
+              reference. It only works on battery power through the barrel jack.
+              On USB power, including a USB power bank, the reading is not
+              meaningful and the warning can be ignored.
+            </dd>
+
+            <dt data-i18n="next.q5">
+              The calibration values in the form or the display values do not
+              match my soil
+            </dt>
+            <dd data-i18n="next.a5">
+              Calibration values and soil-texture thresholds are your field's,
+              not ours. The defaults are a starting point. Change them in the
+              form and generate the file again.
+            </dd>
+          </dl>
+
+          <h2 data-i18n="next.laterH">Coming back later</h2>
+          <p data-i18n="next.laterP">
+            Your configuration is saved in this browser. Open the generator
+            again and load it from the list at the top of the form, adjust what
+            changed, and download a new file. Nothing is overwritten: tick the
+            date-stamp option if you want each download kept separately.
+          </p>
+        <p class="page-actions">
+          <a class="btn btn-primary" href="index.html" data-i18n="next.again">Generate another file</a>
+        </p>
+      </main>
+
+      <div class="logo-row">
+        <img src="assets/img/ucanr-logo.png" alt="University of California, Agriculture and Natural Resources" data-i18n-attr="alt:page.ucanrAlt" class="logo" width="320" height="45" loading="lazy" />
+        <img src="assets/img/ucsc-logo.png" alt="University of California, Santa Cruz" data-i18n-attr="alt:page.ucscAlt" class="logo" width="240" height="66" loading="lazy" />
+      </div>
+
+      <footer class="site-footer">
+        <nav aria-label="Legal and contact">
+          <a href="index.html" data-i18n="foot.generator">Code generator</a>
+          <a href="privacy.html" data-i18n="foot.privacy">Privacy policy</a>
+          <a href="terms.html" data-i18n="foot.terms">Terms of use</a>
+          <a href="assets/docs/consent.pdf" data-i18n="foot.consentForm">Research consent form (PDF)</a>
+          <a href="thank-you.html" data-i18n="foot.afterDownload">After you download</a>
+        </nav>
+        <p class="footer-legal" data-i18n="foot.legal">
+          A research and outreach project of UC Agriculture and Natural
+          Resources and UC Santa Cruz.
+        </p>
+        <p class="contact-slot">Contact details coming soon.</p>
+        <p class="footer-copy">&copy; <span id="foot-year">2026</span> <span data-i18n="foot.copyright">The NodeFlow project.</span></p>
+      </footer>
+    </div>
+
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/site.js"></script>
+  </body>
+</html>
